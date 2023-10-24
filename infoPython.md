@@ -1,11 +1,14 @@
 Para convertir un script de Python en un archivo binario que pueda ejecutarse en cualquier lugar, puedes usar una herramienta como PyInstaller o cx_Freeze. Estas herramientas empacan tu script de Python y todas sus dependencias en un archivo ejecutable independiente. Aquí tienes un ejemplo usando PyInstaller:
 
-1. Asegúrate de tener PyInstaller instalado en tu sistema. Puedes instalarlo con pip:
+1. Asegúrate de tener PyInstaller instalado en tu sistema. Y ldd Puedes instalarlo con pip:
 
 ```
 pip install pyinstaller
 ```
-`pkg install ldd`
+
+```
+pkg install ldd
+```
 
 2. Luego, crea una versión ejecutable de tu script de Python utilizando PyInstaller:
 
