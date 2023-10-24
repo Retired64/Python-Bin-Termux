@@ -5,6 +5,7 @@ Para convertir un script de Python en un archivo binario que pueda ejecutarse en
 ```
 pip install pyinstaller
 ```
+`pkg install ldd`
 
 2. Luego, crea una versión ejecutable de tu script de Python utilizando PyInstaller:
 
